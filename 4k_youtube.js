@@ -47,3 +47,9 @@ function setYouTubeResolutionTo4KInvisibly() {
 
 // Call the function
 setYouTubeResolutionTo4KInvisibly();
+
+window.onload = function() {
+    // Your code here
+    setYouTubeResolutionTo4KInvisibly();
+    console.log("All resources are fully loaded!");
+};
